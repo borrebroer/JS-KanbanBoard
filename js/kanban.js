@@ -25,6 +25,8 @@ const create_item = () => {
   
   let input = document.createElement('input');
   item.appendChild(input);
+  let save_button = document.createElement('button');
+  save_button.innerHTML = 'save';
 };
 
 document.querySelectorAll('.drop').forEach(element => {
