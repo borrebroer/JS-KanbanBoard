@@ -28,7 +28,11 @@ const create_item = () => {
   let save_btn = document.createElement('button');
   save_btn.innerHTML = 'Save';
   save_btn.addEventListener('click', () => {error.innerHTML = '';
-  if(input.value != ''){}
+  if(input.value != ''){
+    order++;
+    item.innerHTML = input.value;
+    item.adding = false;
+  }
   });
 
 };
