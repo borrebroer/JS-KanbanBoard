@@ -17,7 +17,7 @@ add_btn.addEventListener('click', () => {
 
 const create_item = () => {
   let item = document.createElement('div');
-  item.classList.add('list item');
+  item.classList.add('item');
   
 };
 
