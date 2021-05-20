@@ -36,9 +36,10 @@ const create_item = () => {
   else{
     error.innerHTML = message;
   }
-  item.appendChild(save_btn);
+  
   
   });
+  item.appendChild(save_btn);
   return item;
 };
 
