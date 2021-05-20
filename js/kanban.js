@@ -31,7 +31,10 @@ const create_item = () => {
   if(input.value != ''){
     order++;
     item.innerHTML = input.value;
-    adding = false;
+    adding = false;    
+  }
+  else{
+    error.innerHTML = message;
   }
   });
 
