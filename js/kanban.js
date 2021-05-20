@@ -25,6 +25,7 @@ const create_item = () => {
   
   let input = document.createElement('input');
   item.appendChild(input);
+  input.focus();
   let save_btn = document.createElement('button');
   save_btn.innerHTML = 'Save';
   save_btn.addEventListener('click', () => {error.innerHTML = '';
